@@ -11,10 +11,10 @@ namespace _TestOne
         static void Main(string[] args)
         {
             var s = Console.ReadLine();
-            s=s.ToLower();
-            s=s.Replace(" ", "");
+            s = s.ToLower();
+            s = s.Replace(" ", "");
 
-            Console.WriteLine("Hello, Admin "+s);
+            Console.WriteLine("Hello, Super adim " + s);
             Console.ReadKey();
         }
     }
