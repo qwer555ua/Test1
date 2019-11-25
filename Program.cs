@@ -14,7 +14,8 @@ namespace _TestOne
             s=s.ToLower();
             s=s.Replace(" ", "");
 
-            Console.WriteLine("Hello, user "+s);
+            Console.WriteLine("Hello, Admin "+s);
+            Console.ReadKey();
         }
     }
 }
